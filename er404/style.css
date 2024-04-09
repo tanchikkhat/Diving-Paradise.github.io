@@ -1,0 +1,45 @@
+
+:root
+{
+	--index: calc(1vw + 1vh);
+}body {
+  margin: 0;
+  background-color:#112e4c ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p{
+  position: absolute;
+	top: 35%;
+	transform: translate(0%, -50%);
+	left:35%;
+	font-size: calc(var(--index)*1.5);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #ffffff;
+	opacity: 1
+}
+
+.btn{
+  display: block;
+  position: absolute;
+  top: 50%;
+	transform: translate(0%,-50%);
+  left:45%;
+  background-color: rgba(236, 167, 20);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+	border: none;
+  width: calc(var(--index)/0.15);
+  height: calc(var(--index)*1.5);
+  font-size: calc(var(--index)/1.1);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style:initial;
+	-webkit-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+	text-decoration: none;
+  text-align: center;
+}
+
