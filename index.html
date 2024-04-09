@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Diving Paradise: курсы дайвинга</title>
+    <link rel="stylesheet" href="text.css">
+    <script src="script.js" defer></script>
+   
+</head>
+<body>
+
+    <div class="shapka">
+        <ul class="shapka__line">
+           <!--Поиск--> 
+           <li>
+                <div class="search">
+                    <input type="text" placeholder="Поиск..."></input>
+                    <span class="search_text">Каталог</span>
+                </div>
+            </li>
+            <!--Логотип-->
+            <li>
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="">
+					</a>
+					
+				</div>
+			
+		    </li>
+            <li>
+                <span class="geo_logo">
+                    <img src="img/geo.png" alt="">
+                </span>
+                <li>
+                    <span class="geo_text">
+                        Хабаровск
+                    </span>
+            </li>
+            <li>
+				<span class="personallogo">
+					<img src="img/pers.png" alt="">
+				</span>
+				<span class="personaltext">Логин</span>
+			</li>
+    </div>
+    <!--Панель-->
+    <div class="panel" align="center"> 
+    <ul>
+         
+        <li>
+            <a class="panel_a" href=# onclick="smoothScroll('daiv')" >ДАЙВИНГ</a>
+        </li>
+        <li>
+            <a class="panel_a" href=# onclick="smoothScroll('foto')">ФОТОГРАФИИ</a>
+        </li>
+        <li>
+            <a class="panel_a" href=# onclick="smoothScroll('price')">ЦЕНЫ</a>
+        </li>
+        <li>
+            <a class="panel_a" href="er404/index.html" onclick="smoothScroll('daiv')" >ПОДАРОЧНЫЙ СЕРТИФИКАТ</a>
+        </li>
+        <li>
+            <a class="panel_a" href=# onclick="smoothScroll('contacts')">КОНТАКТЫ</a>
+        </li>
+        <li>
+            <a class="panel_a" href=# onclick="smoothScroll('podval')">О НАС</a>
+        </li>
+    </ul>
+    </div>
+  
+    <div class="menu">    
+       <img src="img/curs.jpg">
+        <a href="curs/index.html" target="_blank" class="knopka" ><p>Подробнее о нашем курсе</p></a>
+        <h1 align="right">Подводный мир велик и богат</h1>
+    </div>
+    <!--Дайвинг-->
+    <main> 
+    <div class="rasdel_div" id="daiv">
+       <p>ДАЙВИНГ</p>
+        <br>
+          <a1>Дайвинг – это погружение и плавание под водой в специальном костюме с особым снаряжением, которое обеспечивает
+               человека необходимым запасом воздуха. Благодаря такому снаряжению возможно нахождение под водой до 12 часов и более!
+              <br>   Конечно, все зависит от цели погружения.</a1>
+      </div> 
+      <!--Галерея-->
+      <div class="gal" id="foto">
+        <p>ФОТОГРАФИИ</p>
+        
+        <div class="galer">
+                <table>
+                    <tr>
+                        <th>
+                            <img src="img/foto1.jpg" alt="">
+                        </th>
+                        <th>
+                            <img src="img/foto2.jpg" alt="">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="img/foto3.jpg" alt="">
+                        </th>
+                        <th>
+                            <img src="img/foto4.jpg" alt="">
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    
+          <div class="price_div" id="price">
+            <p>ЦЕНЫ НА КУРСЫ </p>
+            <div align="center" class="price">
+                <table class="table1" border="3" >
+                    <thead>
+                    <tr>
+                        <th align="left">
+                            КУРСЫ ДЛЯ НОВИЧКОВ
+                        </th>
+                        <th style="background-color:#00265f; color: white;">
+                            Стандартная цена
+                        </th>
+                        <th style="background-color:#00265f ; color: white;" >
+                            Онлайн бронирование
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Quick Discover Scuba Diving / погружение после <br>
+                            Scuba Diver Session (Брифинг + погружение в море с берег)
+                        </td>
+                        <td align="center">
+                           20.000 руб.
+                        </td>
+                        <td align="center">
+                            18.000 руб.
+                         </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            Scuba Diver Session 1 <br>
+                            (Брифинг + погружение в бассейне + погружение в море с берега)
+                        </td>
+                        <td align="center">
+                           22.000 руб.
+                        </td>
+                        <td align="center">
+                            20.000 руб.
+                         </td>
+                    </tr>
+                </tbody>
+                </table>
+                <br>
+            <h3>Пробные занятие для детей:</h3>
+                <table class="table2" border="3" >
+                    <thead>
+                    <tr>
+                        <th align="left">
+                            ДАЙВИНГ ДЛЯ ДЕТЕЙ
+                        </th>
+                        <th style="background-color:#00265f ;color: white;">
+                            Стандартная цена
+                        </th>
+                        <th style="background-color:#00265f ;color: white;">
+                            Онлайн бронирование
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <b>Bubblemaker</b> <br>
+                            Погружение в бассейне
+                        </td>
+                        <td align="center">
+                           10.000 руб.
+                        </td>
+                        <td align="center">
+                            8.000 руб.
+                         </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            <b>Seal Team - Морская команда <br></b>
+                            (Программа для детей. В цену входят 5 миссий, просмотр видео, логоук, книга записи деятельности, наклейки для каждой миссии.)
+                        </td>
+                        <td align="center">
+                           15.000 руб.
+                        </td>
+                        <td align="center">
+                            12.000 руб.
+                         </td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacts_div" id="contacts">
+            <p>КОНТАКТЫ</p>
+            <div class="contacts">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="rec">
+                                    <h2>Реквизиты компании:</h2>
+                                    <ol>
+                                        <li>
+                                            Наименование компании: Diving Paradise
+                                        </li>
+                                        <li>
+                                            Юридический адрес: ул. Оборонная, д. 22А,<span>г. Хабаровск, страна Россия</span> 
+                                        </li>
+                                        <li>
+                                            ИНН: 20214521463
+                                        </li>
+                                        <li>
+                                            ОГРН: 0125478523
+                                        </li>
+                                        <li>
+                                            Расчетный счет: 120547852147785 <span>в Банк Тинькофф, БИК 012345</span>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="call">
+                                    <h2>Способы связи:</h2>
+                                    <ol>
+                                        <li>
+                                            Телефон: +7 (914) 317-93-17
+                                        </li>
+                                        <li>
+                                            Электронная почта: <a href="mailto:tanya010405@gmail.com">info@DivingPar.com</a>
+                                        </li>
+                                        <li>
+                                            <img src="" alt="">
+                                            <span>VK: <a href="https://vk.com/feed" target="_blank">divpar_club</a></span>
+                                        </li>
+                                        <li>
+                                            <img src="" alt="">
+                                            <span>Instagram: <a href="https://instagram.com" target="_blank">@diving_paradis</a></span>
+                                        </li>
+                                        <li>
+                                            <img src="" alt="">
+                                            <span>Telegram: <a href="https://web.telegram.org" target="_blank">@div_paradise</a></span>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </td>
+                            <td class="yandex_map" align="center">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3e004e43be01bf6090059a5c8a17b500e7c56cb0cc49df72e94eb2a02676c256&amp;width=395&amp;height=375&amp;lang=ru_RU&amp;scroll=true"></script>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <div class="adres">
+                    <h2>Адрес компании Diving Paradise:</h2>
+                    <ul>
+                        <li>
+                            Ул. Волочаевская, д. 1, офис 313, Город Хабаровск, Страна Россия
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>	
+            </div>
+        </div>
+
+        <div class="info_company" id="info">
+            <p>О НАС</p>
+            <div class="info">
+               <p>Дайв- центр "Diving Paradise" - это
+                не просто компания, которая 
+                занимается обучением дайвингу, 
+                организацией дайв-туров. 
+                Мы - команда профессионалов, 
+                которые любят своё дело и отлично 
+                в нём разбираются.  Именно поэтому
+                мы успешно работаем с 2022 года, 
+                наши дайверы объездили весь мир и
+                 побывали в самых интересных местах.</p> 
+            </div>
+        </div>
+       
+    </main> 
+
+    <!--Подвал-->
+    <footer>
+        <div class="podval_div" id="podval">
+           <div class="buttons"><ul>
+            <li><a class="panel__a" href=#daiv onclick="smoothScrollunder('daiv')">ДАЙВИНГ</a></li>
+             <li><a class="panel__a" href=#foto onclick="smoothScrollunder('foto')">ФОТОГРАФИИ</a></li>
+             <li><a class="panel__a" href=#price onclick="smoothScrollunder('price')">ЦЕНЫ</a></li>
+                <li><a class="panel__a" href=#contacts onclick="smoothScrollunder('contacts')">КОНТАКТЫ</a></li>
+                    <li> <a class="panel__a" href=#podval onclick="smoothScrollunder('podval')">О НАС</a></li>
+                </ul>
+             </div>
+    
+            <p class="copyright">
+                © 2024 DivingParadise. Все права защищены.
+            </p>
+    
+        </div>
+        
+    </footer>
+    <div class="scroll-to-top">
+        <a class="button-question" href="questions/index.html">Поддержка</a>
+    </div>
+     <div class="go-top">▲</div>
+</body>
+</html>
